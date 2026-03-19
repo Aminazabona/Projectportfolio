@@ -30,41 +30,44 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 60px 80px;
-  margin-left: 50px;
+  justify-content: center; 
+  gap: 80px;               
+  max-width: 1200px;       
+  margin: 0 auto;          
+  padding: 80px 20px;      
 }
-
 .hero-text {
-  max-width: 500px;
+  flex: 1;                
+  max-width: 550px;       
 }
 
-.hero-text h1 {
-  
- font-size: 50px;
-    font-weight: 700;
-    margin-bottom: 1.5rem;
-    line-height: 1.2;;
-  color: #2c3e50;
+.hero-title {
+   font-family: 'Inter', sans-serif;
+   font-weight: 700;       
+   font-size: 45px;         
+   color: #0d47a1;          
+   letter-spacing: -1px; 
+   margin-bottom: 20px;
 }
 
-.hero-text h1 span {
+.hero-title span {
   color: #1e66ff;
 }
-
 .hero-text p {
- font-size: 1.2rem;
-    color: 
- color-mix(in srgb, var(--default-color), transparent 20%);
-    margin-bottom: 3rem;
-    line-height: 1.6;
+  font-family: 'Inter', sans-serif;
+    font-weight: 300;        
+    font-size: 18px;
+    color: #6c757d;          
+    line-height: 1.8;
+    margin-bottom: 35px;    
+ 
 }
 
 
 .stats {
   display: flex;
-  gap: 40px;
-  margin: 30px 0;
+  margin-bottom: 40px;   
+  gap: 50px;  
 }
 
 .stats h2 {
@@ -82,7 +85,7 @@ body {
 .buttons {
   display: flex;
   gap: 15px;
-  margin-bottom: 30px;
+  margin-bottom: 45px; 
 }
 
 .btn {
@@ -134,37 +137,33 @@ body {
 }
 
 .hero-image {
-  position: relative;
+  flex: 1;                
+  display: flex;
+  justify-content: center; 
 }
 
 .image-wrapper {
-  position: relative;
-  padding: 0 20px 20px 0; 
-  border-radius: 20px;        
-  margin-right: 50px;
-  border: 50px;                
+ position: relative;
+  width: 400px;           
+  height: 400px;
+  background-color: #1e66ff;
+  border-radius: 20px;
+               
 }
-.hero-image .imgbg{
-  position: absolute;
-    top: 20px;
-    left: 20px;
-    right: -20px;
-    bottom: -20px;
-    background: linear-gradient(45deg, var(--accent-color),
- color-mix(in srgb, var(--accent-color), transparent 30%));
-    border-radius: 20px;
-    z-index: 1;
-}
+ 
 .image-wrapper img {
-  width: 450px;
-  height: 500px;
-  display: block;
-  border-radius: 20px 0 0 20px; 
+  width: 400px;           
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
+  position: absolute;
+  top: -30px;             
+  left: -30px;            
+  box-shadow: 0 20px 40px rgba(0,0,0,0.1);
 }
 .signature img{
   max-width: 200px;
   height: auto;
-
   opacity: 0.8;
 }
 .profile-tagline{
@@ -172,7 +171,6 @@ body {
     color: 
     color-mix(in srgb, var(--default-color), transparent 30%);
     font-size: 14px;
-    margin: 0;
     max-width: 350px;
     margin: 0 auto;
     
@@ -180,44 +178,38 @@ body {
 .badge {
   position: absolute;
   background: #fff;
-  padding: 10px 15px;
-  border-radius: 10px;
+  padding: 12px 20px;       
+  border-radius: 12px;      
+  display: flex;
+  align-items: center;
+  gap: 12px;                
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); 
+  z-index: 10;             
+}
+ .badge i {
+  font-size: 18px;          
+  color: #1e66ff;           
+}
+.badge p {
+  margin: 0;                
+  font-weight: 600;         
+  color: #0d47a1;           
   font-size: 14px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  white-space: nowrap;      
 }
-
 .badge-top {
-  display: flex;
-  top: -10px;
-  left: 20px;
-  gap: 10px;
-  color: #1e66ff;
-  width: 150px;
-  height: 50px;
-  align-items: center;
+  top: -20px;               
+  left: -80px;              
 }
-
 .badge-left {
-  display: flex;
-  bottom: 20px;
-  left: -30px;
-  gap: 10px;
-  color: #1e66ff;
-  width: 150px;
-  height: 50px;
-  align-items: center;
+  bottom: 50px;             
+  left: -100px;             
 }
 
 .badge-right {
-  display: flex;
-  top: 50%;
-  right: -30px;
+  top: 60%;                 
+  right: -70px;             
   transform: translateY(-50%);
-  gap: 10px;
-  color: #1e66ff;
-  width: 150px;
-  height: 50px;
-  align-items: center;
 }
 .about {
   padding: 100px 80px;
