@@ -362,7 +362,7 @@ font-size: 42px;
   transition: 0.3s;
 }
 .service-card:hover{
-  transform: translateZ(5) scale(2);
+  border:1px solid #a8c4e2;
 }
 .icon-circle {
   width: 45px;
@@ -392,14 +392,15 @@ font-size: 42px;
 .timeline {
   margin-bottom: 40px;
 }
-
 .timeline-item {
   display: flex;
   align-items: center;
   margin-bottom: 25px;
   gap: 30px;
 }
-
+.timeline-item:hover{
+  background-color: #e1e9f0;
+}
 .timeline-year {
   display: flex;         
   align-items: center;    
@@ -411,6 +412,7 @@ font-size: 42px;
   padding-left: 15px;
   height: 50px;   
 }
+
 
 .timeline-item p {
   color: #6c7a89;
