@@ -464,3 +464,369 @@ font-size: 42px;
   background: #1e66ff;
   color: white;
 }
+.skills {
+  padding: 80px 0;
+  background-color: #f5f7fa;
+}
+
+.skills-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.skills-content {
+  display: grid;
+  grid-template-columns: 1fr 350px;
+  gap: 30px;
+  align-items: start;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.skill-card {
+  background: #fff;
+  border-radius: 12px;
+  padding: 30px;
+  border: 1px solid #e1e8f0;
+  border-top: 3px solid #1e66ff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03);
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.icon-box {
+  width: 45px;
+  height: 45px;
+  background: #ebf3ff;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #1e66ff;
+  font-size: 20px;
+}
+
+.card-header h3 {
+  font-family: Quicksand;
+  color: #1a4b8c;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.skill-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skill-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+.skill-name {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1a4b8c;
+}
+
+.skill-percent {
+  font-size: 13px;
+  font-weight: 700;
+  color: #1e66ff;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #f0f2f5;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: #1e66ff;
+  border-radius: 10px;
+}
+
+.expertise-sidebar {
+  background: #fff;
+  border-radius: 15px;
+  padding: 40px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.04);
+  
+}
+
+.expertise-title {
+  font-family: Quicksand;
+  color: #1a4b8c;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.expertise-desc {
+  color: #7f8c8d;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 35px;
+}
+
+.expertise-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  margin-bottom: 40px;
+}
+
+.stat-row {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.stat-icon {
+  width: 44px;
+  height: 44px;
+  background: #1e66ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+}
+
+.stat-text h4 {
+  font-size: 22px;
+  color: #1a4b8c;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.stat-text p {
+  font-size: 13px;
+  color: #95a5a6;
+  margin: 0;
+}
+
+.certifications h3 {
+  font-size: 16px;
+  color: #1a4b8c;
+  margin-bottom: 20px;
+}
+
+.cert-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.badge-pill {
+  background: #1e66ff;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  padding: 8px 16px;
+  border-radius: 20px;
+  letter-spacing: 0.5px;
+}
+.resume {
+  padding: 100px 0;
+  background-color: #fff;
+}
+
+.resume-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+.section-header {
+  margin-bottom: 60px;
+}
+
+.title-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.title-wrapper h2 {
+  font-size: 32px;
+  color: #1a4b8c;
+  font-weight: 700;
+  font-family: Quicksand;
+}
+
+.title-line {
+  height: 2px;
+  width: 100px;
+  background-color: #1e66ff;
+}
+
+.section-subtitle {
+  color: #99a5b1;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.resume-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  align-items: start;
+}
+
+.column-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  color: #1a4b8c;
+}
+
+.column-header i {
+  font-size: 20px;
+  color: #1e66ff;
+}
+
+.column-header h3 {
+  font-family: Quicksand;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.column-description {
+  color: #7f8c8d;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 40px;
+}
+
+.experience-cards,
+.education-timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.experience-card,
+.education-card {
+  background: #fff;
+  border: 1px solid #ebf0f5;
+  border-radius: 12px;
+  padding: 30px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.02);
+  position: relative;
+}
+
+.experience-card {
+  border-left: 4px solid #1e66ff;
+}
+
+.card-header-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.card-header-flex h4 {
+  font-size: 18px;
+  color: #1a4b8c;
+  font-weight: 700;
+  font-family: Quicksand;
+}
+
+.date-pill {
+  background: #ebf3ff;
+  color: #1e66ff;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 5px 15px;
+  border-radius: 20px;
+}
+
+.date-pill.solid {
+  background: #1e66ff;
+  color: #fff;
+}
+
+.company-name,
+.school-name {
+  color: #1e66ff;
+  font-weight: 600;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.job-desc,
+.edu-desc {
+  color: #7f8c8d;
+  font-size: 13px;
+  line-height: 1.7;
+  margin-bottom: 20px;
+}
+
+.job-highlights {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.job-highlights li {
+  font-size: 13px;
+  color: #6c7a89;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.job-highlights li i {
+  color: #1e66ff;
+  font-size: 12px;
+  margin-top: 3px;
+}
+
+.education-timeline {
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 0;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background-color: #1e66ff;
+}
+
+.education-item {
+  position: relative;
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -44px;
+  top: 25px;
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+  border: 3px solid #1e66ff;
+  border-radius: 50%;
+  z-index: 2;
+}
