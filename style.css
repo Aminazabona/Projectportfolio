@@ -1540,6 +1540,78 @@ font-size: 42px;
 .primary1:hover{
    background-color: #92929e;
 }
+.footer {
+  background-color: #0056d2;
+  color: #ffffff;
+  padding: 60px 0;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.footer-copyright {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.footer-copyright strong {
+  font-family: "Quicksand", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.footer-social-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.social-link {
+  width: 40px;
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.social-link:hover {
+  background-color: #ffffff;
+  color: #1e66ff;
+  border-color: #ffffff;
+  transform: translateY(-5px);
+}
+
+.footer-credits {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.footer-credits a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.3s ease;
+}
+
+.footer-credits a:hover {
+  text-decoration: underline;
+  opacity: 0.8;
+}
+
 
 
 
