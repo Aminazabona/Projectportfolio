@@ -1344,7 +1344,7 @@ font-size: 42px;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.4s cubic-bezier(0, 1, 0, 1);
-  background-color: #fcfdfe;
+  background-color: #feffff;
 }
 
 .answer-content {
@@ -1438,7 +1438,9 @@ font-size: 42px;
   font-size: 18px;
   flex-shrink: 0;
 }
-
+.info-icon-box:hover{
+  background-color: #92929e;
+}
 .info-content h4 {
   font-family: "Quicksand", sans-serif;
   font-size: 18px;
@@ -1589,10 +1591,8 @@ font-size: 42px;
 }
 
 .social-link:hover {
-  background-color: #ffffff;
-  color: #1e66ff;
   border-color: #ffffff;
-  transform: translateY(-5px);
+  
 }
 
 .footer-credits {
@@ -1608,7 +1608,6 @@ font-size: 42px;
 }
 
 .footer-credits a:hover {
-  text-decoration: underline;
   opacity: 0.8;
 }
 
