@@ -479,7 +479,7 @@ font-size: 42px;
   display: grid;
   grid-template-columns: 1fr 350px;
   gap: 30px;
-  align-items: start;
+  align-items: stretch;
 }
 
 .skills-grid {
@@ -495,8 +495,14 @@ font-size: 42px;
   border: 1px solid #e1e8f0;
   border-top: 3px solid #1e66ff;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.03);
+  transition: all 0.3s ease;
+  cursor: pointer;
 }
-
+.skill-card:hover{
+  transform: translateY(-10px); 
+  border-color: #1e66ff;
+  box-shadow: 0 20px 40px rgba(30, 102, 255, 0.15); 
+}
 .card-header {
   display: flex;
   align-items: center;
@@ -514,6 +520,7 @@ font-size: 42px;
   justify-content: center;
   color: #1e66ff;
   font-size: 20px;
+  
 }
 
 .card-header h3 {
@@ -566,7 +573,7 @@ font-size: 42px;
   border-radius: 15px;
   padding: 40px;
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.04);
-  
+  height: 100%;
 }
 
 .expertise-title {
@@ -652,7 +659,11 @@ font-size: 42px;
   margin: 0 auto;
   padding: 0 40px;
 }
-
+.resume-column {
+  display: flex;
+  flex-direction: column;
+  gap: 10px; 
+}
 .section-header {
   margin-bottom: 60px;
 }
@@ -693,26 +704,29 @@ font-size: 42px;
   display: flex;
   align-items: center;
   gap: 12px;
-  margin-bottom: 20px;
+ margin-bottom: 5px;
   color: #1a4b8c;
 }
 
 .column-header i {
   font-size: 20px;
   color: #1e66ff;
+  
 }
 
 .column-header h3 {
   font-family: Quicksand;
-  font-size: 24px;
   font-weight: 700;
+  font-size: 22px;
+  letter-spacing: -0.5px;
 }
 
 .column-description {
   color: #7f8c8d;
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.6;
-  margin-bottom: 40px;
+  margin-bottom: 30px; 
+  max-width: 90%;
 }
 
 .experience-cards,
@@ -720,6 +734,7 @@ font-size: 42px;
   display: flex;
   flex-direction: column;
   gap: 30px;
+  
 }
 
 .experience-card,
@@ -730,10 +745,17 @@ font-size: 42px;
   padding: 30px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.02);
   position: relative;
+  transition: all 0.3s ease;
+  
 }
 
 .experience-card {
   border-left: 4px solid #1e66ff;
+}
+.experience-card:hover, .education-card:hover {
+  transform: translateX(10px); /* Léger décalage vers la droite */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border-color: #1e66ff;
 }
 
 .card-header-flex {
