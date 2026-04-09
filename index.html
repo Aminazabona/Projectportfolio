@@ -3,24 +3,24 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projectportfolio</title>
+    <title>Portfolio | Brandon - Creative Developer</title>
+
     <link rel="stylesheet" href="style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Quicksand:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
-    </style>
   </head>
+
   <body>
-    <header class="header">
-      <nav class="nav">
-        <div class="menu-icon">
+  
+    <header>
+      <nav>
+        <div class="menu-icon" aria-label="Menu">
           <span></span>
           <span></span>
           <span></span>
@@ -29,1125 +29,1127 @@
     </header>
 
     <main>
-      <section class="hero">
-        <div class="container">
-          <article class="hero-text">
-            <h1 class="hero-title">Creative <span>Developer</span></h1>
-            <p>
-              I create digital experiences that inspire and engage. With a
-              passion for clean design and innovative solutions, I transform
-              ideas into beautiful, functional realities.
+
+      <section id="hero">
+        
+        <div class="hero-content">
+          <h1 class="hero-title">Creative <span>Developer</span></h1>
+          <p class="hero-desc">
+            I create digital experiences that inspire and engage. With a passion
+            for clean design and innovative solutions, I transform ideas into
+            beautiful, functional realities.
+          </p>
+
+          <div class="hero-stats">
+            <div class="stat">
+              <span class="num">150</span>
+              <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+              <span class="num">5</span>
+              <p>Years Experience</p>
+            </div>
+            <div class="stat">
+              <span class="num">98</span>
+              <p>Happy Clients</p>
+            </div>
+          </div>
+
+          <div class="hero-actions">
+            <a href="#" class="btn-primary">View My Work</a>
+            <a href="#" class="btn-secondary">Get In Touch</a>
+          </div>
+
+          <div class="hero-socials">
+            <a href="#" aria-label="Twitter"
+              ><i class="fa-brands fa-twitter"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="#" aria-label="GitHub"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+
+        
+        <div class="hero-visual">
+          <div class="image-stack">
+            <div class="blue-bg"></div>
+            <img
+              src="./Asset/images/profile-square-1.webp"
+              alt="Brandon"
+              class="profile-img"
+            />
+
+           
+            <div class="badge b-top">
+              <i class="fas fa-palette"></i>
+              <p>UI/UX Design</p>
+            </div>
+            <div class="badge b-left">
+              <i class="fas fa-bolt"></i>
+              <p>Creative Ideas</p>
+            </div>
+            <div class="badge b-right">
+              <i class="fas fa-code"></i>
+              <p>Development</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+     
+      <section class="about" id="about">
+       
+        <div class="section-title-group">
+          <h2>About</h2>
+          <span class="title-line"></span>
+        </div>
+
+        <p class="about-subtitle">
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+
+       
+        <div class="about-layout">
+         
+          <div class="about-sidebar">
+            <div class="profile-img-container">
+              <img
+                src="./Asset/images/profile-square-1.webp"
+                alt="Brandon"
+                class="about-profile-img"
+              />
+            </div>
+            <div class="signature-area">
+              <img
+                src="./Asset/images/signature-1 (1).webp"
+                alt="Signature"
+                class="signature-img"
+              />
+              <p class="profile-tagline">
+                Building meaningful digital experiences through creative code.
+              </p>
+            </div>
+          </div>
+
+         
+          <div class="about-main">
+            <h1 class="main-title">Hi, I'm Brandon - a Creative Developer</h1>
+            <p class="main-description">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat
+              vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit
+              amet quam egestas semper.
             </p>
 
-            <div class="stats">
-              <div>
-                <h2>150</h2>
-                <p>Projects Completed</p>
+            <div class="about-services">
+              <div class="about-service-card">
+                <div class="card-icon"><i class="fas fa-palette"></i></div>
+                <h3>UI/UX Design</h3>
+                <p>Mauris blandit aliquet elit, eget tincidunt nibh pulvinar</p>
               </div>
-              <div>
-                <h2>5</h2>
+              <div class="about-service-card">
+                <div class="card-icon"><i class="fas fa-code"></i></div>
+                <h3>Frontend Dev</h3>
+                <p>
+                  Sed porttitor lectus nibh. Cras ultricies ligula sed magna
+                </p>
+              </div>
+              <div class="about-service-card">
+                <div class="card-icon"><i class="fas fa-camera"></i></div>
+                <h3>Photography</h3>
+                <p>Vestibulum ac diam sit amet quam vehicula elementum</p>
+              </div>
+            </div>
+
+            <div class="about-timeline">
+              <div class="timeline-row">
+                <span class="year">2019</span>
+                <p>
+                  Graduated with B.A. in Digital Design from Creative University
+                </p>
+              </div>
+              <div class="timeline-row">
+                <span class="year">2020</span>
+                <p>Joined InnovateTech as Junior Frontend Developer</p>
+              </div>
+              <div class="timeline-row">
+                <span class="year">2023</span>
+                <p>
+                  Launched freelance career specializing in creative web
+                  solutions
+                </p>
+              </div>
+            </div>
+
+            <div class="info-pill-bar">
+              <span class="emoji">☕</span>
+              <span>Coffee-fueled designer based in Portland</span>
+            </div>
+
+            <div class="about-actions">
+              <a href="#" class="btn-primary">View My Work</a>
+              <a href="#" class="btn-outline">Download Resume</a>
+            </div>
+          </div>
+        </div>
+      </section>
+     
+      <section class="skills" id="skills">
+        
+        <div class="skills-grid">
+         
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-code"></i></div>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>HTML/CSS</span> <span>95%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript</span> <span>88%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 88%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Vue.js</span> <span>82%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 82%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-database"></i></div>
+              <h3>Backend Development</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>PHP</span> <span>78%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 78%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Laravel</span> <span>75%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>MySQL</span> <span>72%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 72%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-palette"></i></div>
+              <h3>Design & Tools</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Figma</span> <span>85%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 85%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Photoshop</span> <span>70%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 70%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Illustrator</span> <span>68%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 68%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="skill-card">
+            <div class="skill-card-header">
+              <div class="skill-icon-box"><i class="fas fa-cloud"></i></div>
+              <h3>Cloud & DevOps</h3>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-info"><span>AWS</span> <span>76%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 76%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Docker</span> <span>73%</span>
+                </div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 73%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info"><span>Git</span> <span>90%</span></div>
+                <div class="progress-bar">
+                  <div class="progress-fill" style="width: 90%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       
+        <div class="skills-sidebar">
+          <h2 class="sidebar-title">Professional Expertise</h2>
+          <p class="sidebar-desc">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam.
+          </p>
+
+         
+          <div class="sidebar-stats">
+            <div class="sidebar-stat-item">
+              <div class="stat-icon-circle"><i class="fas fa-trophy"></i></div>
+              <div class="stat-text">
+                <h4>5+</h4>
                 <p>Years Experience</p>
               </div>
-              <div>
-                <h2>98</h2>
+            </div>
+            <div class="sidebar-stat-item">
+              <div class="stat-icon-circle">
+                <i class="fas fa-project-diagram"></i>
+              </div>
+              <div class="stat-text">
+                <h4>50+</h4>
+                <p>Projects Completed</p>
+              </div>
+            </div>
+            <div class="sidebar-stat-item">
+              <div class="stat-icon-circle"><i class="fas fa-users"></i></div>
+              <div class="stat-text">
+                <h4>30+</h4>
                 <p>Happy Clients</p>
               </div>
             </div>
+          </div>
 
-            <div class="buttons">
-              <a href="#" class="btn primary">View My Work</a>
-              <a href="#" class="btn secondary">Get In Touch</a>
+          
+          <div class="certifications-block">
+            <h3>Certifications</h3>
+            <div class="cert-pills">
+              <span class="cert-pill">AWS CERTIFIED</span>
+              <span class="cert-pill">LARAVEL EXPERT</span>
+              <span class="cert-pill">VUE.JS DEVELOPER</span>
+              <span class="cert-pill">UI/UX DESIGN</span>
             </div>
-
-            <div class="socials">
-              <a href="#"><i class="fa-brands fa-twitter"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-github"></i></a>
-              <a href="#"><i class="fab fa-instagram"></i></a>
-            </div>
-          </article>
-
-          <article class="hero-image">
-            <div class="image-wrapper">
-              <img src="./Asset/images/profile-square-1.webp" alt="profile" />
-
-              <div class="badge badge-top">
-                <i class="fas fa-palette"></i>
-                <p>UI/UX Design</p>
-              </div>
-              <div class="badge badge-left">
-                <i class="fas fa-bolt"></i>
-                <p>Creative Ideas</p>
-              </div>
-              <div class="badge badge-right">
-                <i class="fas fa-code"></i>
-                <p>Development</p>
-              </div>
-            </div>
-          </article>
+          </div>
         </div>
       </section>
-      <section class="about">
-        <div class="about-container">
-          <header class="about-header">
-            <div class="about-title-wrapper">
-              <h2>About</h2>
-              <span class="title-line"></span>
-            </div>
-            <p class="about-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
-            </p>
-          </header>
+     
+      <section class="resume" id="resume">
+        
+        <div class="section-title-group">
+          <h2>Resume</h2>
+          <span class="title-line"></span>
+        </div>
+        <p class="section-subtitle">
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
 
-          <div class="about-layout">
-            <aside class="about-sidebar">
-              <div class="profile-container">
-                <div class="profile-img-box">
-                  <img
-                    src="./Asset/images/profile-square-1.webp"
-                    alt="Eliot Johnson"
-                  />
+       
+        <div class="resume-grid">
+         
+          <div class="resume-column">
+            <div class="column-header">
+              <i class="fa-solid fa-briefcase"></i>
+              <h3>Professional Journey</h3>
+            </div>
+            <p class="column-intro">
+              Pellentesque habitant morbi tristique senectus et netus et
+              malesuada fames ac turpis egestas vestibulum tortor quam.
+            </p>
+
+            <div class="resume-cards">
+             
+              <div class="experience-card">
+                <div class="card-top">
+                  <h4>Technical Director</h4>
+                  <span class="date-pill">2022 - Present</span>
                 </div>
+                <p class="company-name">Proin Corporation</p>
+                <p class="card-desc">
+                  Vestibulum ante ipsum primis in faucibus orci luctus et
+                  ultrices posuere cubilia curae mauris viverra veniam sit amet
+                  lacus cursus.
+                </p>
+                <ul class="job-list">
+                  <li>
+                    <i class="fa-solid fa-check"></i> Managed cross-functional
+                    teams of 15+ professionals
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> Implemented agile
+                    methodologies resulting in 40% efficiency gain
+                  </li>
+                  <li>
+                    <i class="fa-solid fa-check"></i> Led digital transformation
+                    initiatives worth $2M+
+                  </li>
+                </ul>
               </div>
-              <div class="signature">
-                <img src="./Asset/images/signature-1 (1).webp" />
-                <p class="profile-tagline">
-                  Building meaningful digital experiences through creative code.
+
+             
+              <div class="experience-card">
+                <div class="card-top">
+                  <h4>Senior Development Manager</h4>
+                  <span class="date-pill">2018 - 2022</span>
+                </div>
+                <p class="company-name">Consectetur Solutions Inc</p>
+                <p class="card-desc">
+                  Donec quam felis ultricies nec pellentesque eu pretium quis
+                  sem nulla consequat massa quis enim donec pede justo fringilla
+                  vel.
                 </p>
               </div>
-            </aside>
 
-            <article class="about-main">
-              <h1 class="main-title">Hi, I'm Brandon - a Creative Developer</h1>
-              <p class="main-description">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas. Vestibulum tortor quam,
-                feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu
-                libero sit amet quam egestas semper.
-              </p>
-
-              <div class="service-cards">
-                <div class="service-card">
-                  <div class="icon-circle"><i class="fas fa-palette"></i></div>
-                  <h3>UI/UX Design</h3>
-                  <p>
-                    Mauris blandit aliquet elit, eget tincidunt nibh pulvinar
-                  </p>
+             
+              <div class="experience-card">
+                <div class="card-top">
+                  <h4>Product Development Specialist</h4>
+                  <span class="date-pill">2015 - 2018</span>
                 </div>
-                <div class="service-card">
-                  <div class="icon-circle"><i class="fas fa-code"></i></div>
-                  <h3>Frontend Dev</h3>
-                  <p>
-                    Sed porttitor lectus nibh. Cras ultricies ligula sed magna
-                  </p>
-                </div>
-                <div class="service-card">
-                  <div class="icon-circle"><i class="fas fa-camera"></i></div>
-                  <h3>Photography</h3>
-                  <p>Vestibulum ac diam sit amet quam vehicula elementum</p>
-                </div>
+                <p class="company-name">Adipiscing Technologies</p>
+                <p class="card-desc">
+                  Nam quam nunc blandit vel luctus pulvinar hendrerit id lorem
+                  maecenas nec odio et ante tincidunt tempus donec vitae sapien
+                  ut.
+                </p>
               </div>
-
-              <div class="timeline">
-                <div class="timeline-item">
-                  <span class="timeline-year">2019</span>
-                  <p>
-                    Graduated with B.A. in Digital Design from Creative
-                    University
-                  </p>
-                </div>
-                <div class="timeline-item">
-                  <span class="timeline-year">2020</span>
-                  <p>Joined InnovateTech as Junior Frontend Developer</p>
-                </div>
-                <div class="timeline-item">
-                  <span class="timeline-year">2023</span>
-                  <p>
-                    Launched freelance career specializing in creative web
-                    solutions
-                  </p>
-                </div>
-              </div>
-
-              <div class="location-pill">
-                <i class="fas fa-coffee"></i>
-                <span>Coffee-fueled designer based in Portland</span>
-              </div>
-
-              <div class="about-buttons">
-                <a href="#" class="btn primary">View My Work</a>
-                <a href="#" class="btn btn-outline">Download Resume</a>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-      <section class="skills">
-        <div class="skills-container">
-          <div class="skills-content">
-            <div class="skills-grid">
-              <article class="skill-card">
-                <header class="card-header">
-                  <div class="icon-box">
-                    <i class="fas fa-code"></i>
-                  </div>
-                  <h3>Frontend Development</h3>
-                </header>
-                <div class="skill-list">
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">HTML/CSS</span>
-                      <span class="skill-percent">95%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 95%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">JavaScript</span>
-                      <span class="skill-percent">88%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 88%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Vue.js</span>
-                      <span class="skill-percent">82%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 82%"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="skill-card">
-                <header class="card-header">
-                  <div class="icon-box">
-                    <i class="fas fa-database"></i>
-                  </div>
-                  <h3>Backend Development</h3>
-                </header>
-                <div class="skill-list">
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">PHP</span>
-                      <span class="skill-percent">78%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 78%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Laravel</span>
-                      <span class="skill-percent">75%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 75%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">MySQL</span>
-                      <span class="skill-percent">72%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 72%"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="skill-card">
-                <header class="card-header">
-                  <div class="icon-box">
-                    <i class="fas fa-palette"></i>
-                  </div>
-                  <h3>Design & Tools</h3>
-                </header>
-                <div class="skill-list">
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Figma</span>
-                      <span class="skill-percent">85%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 85%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Photoshop</span>
-                      <span class="skill-percent">70%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 70%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Illustrator</span>
-                      <span class="skill-percent">68%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 68%"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <article class="skill-card">
-                <header class="card-header">
-                  <div class="icon-box">
-                    <i class="fas fa-cloud"></i>
-                  </div>
-                  <h3>Cloud & DevOps</h3>
-                </header>
-                <div class="skill-list">
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">AWS</span>
-                      <span class="skill-percent">76%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 76%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Docker</span>
-                      <span class="skill-percent">73%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 73%"></div>
-                    </div>
-                  </div>
-                  <div class="skill-item">
-                    <div class="skill-info">
-                      <span class="skill-name">Git</span>
-                      <span class="skill-percent">90%</span>
-                    </div>
-                    <div class="progress-bar">
-                      <div class="progress-fill" style="width: 90%"></div>
-                    </div>
-                  </div>
-                </div>
-              </article>
             </div>
-
-            <aside class="expertise-sidebar">
-              <h2 class="expertise-title">Professional Expertise</h2>
-              <p class="expertise-desc">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
-              </p>
-
-              <div class="expertise-stats">
-                <div class="stat-row">
-                  <div class="stat-icon"><i class="fas fa-trophy"></i></div>
-                  <div class="stat-text">
-                    <h4>5+</h4>
-                    <p>Years Experience</p>
-                  </div>
-                </div>
-                <div class="stat-row">
-                  <div class="stat-icon">
-                    <i class="fas fa-project-diagram"></i>
-                  </div>
-                  <div class="stat-text">
-                    <h4>50+</h4>
-                    <p>Projects Completed</p>
-                  </div>
-                </div>
-                <div class="stat-row">
-                  <div class="stat-icon"><i class="fas fa-users"></i></div>
-                  <div class="stat-text">
-                    <h4>30+</h4>
-                    <p>Happy Clients</p>
-                  </div>
-                </div>
-              </div>
-
-              <div class="certifications">
-                <h3>Certifications</h3>
-                <div class="cert-badges">
-                  <span class="badge-pill">AWS CERTIFIED</span>
-                  <span class="badge-pill">LARAVEL EXPERT</span>
-                  <span class="badge-pill">VUE.JS DEVELOPER</span>
-                  <span class="badge-pill">UI/UX DESIGN</span>
-                </div>
-              </div>
-            </aside>
           </div>
-        </div>
-      </section>
-      <section class="resume">
-        <div class="resume-container">
-          <header class="section-header">
-            <div class="title-wrapper">
-              <h2>Resume</h2>
-              <span class="title-line"></span>
+
+         
+          <div class="resume-column academic">
+            <div class="column-header">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <h3>Academic Excellence</h3>
             </div>
-            <p class="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
+            <p class="column-intro">
+              Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
+              commodo ligula eget dolor aenean massa.
             </p>
-          </header>
 
-          <div class="resume-layout">
-            <article class="resume-column">
-              <header class="column-header">
-                <i class="fa-solid fa-briefcase"></i>
-                <h3>Professional Journey</h3>
-              </header>
-              <p class="column-description">
-                Pellentesque habitant morbi tristique senectus et netus et
-                malesuada fames ac turpis egestas vestibulum tortor quam.
-              </p>
-
-              <div class="experience-cards">
-                <div class="experience-card">
-                  <div class="card-header-flex">
-                    <h4>Technical Director</h4>
-                    <span class="date-pill">2022 - Present</span>
+            <div class="education-timeline">
+              <div class="timeline-line"></div>
+             
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="education-card">
+                  <div class="card-top">
+                    <h4>Master of Computer Science</h4>
+                    <span class="date-pill solid">2015 - 2017</span>
                   </div>
-                  <p class="company-name">Proin Corporation</p>
-                  <p class="job-desc">
-                    Vestibulum ante ipsum primis in faucibus orci luctus et
-                    ultrices posuere cubilia curae mauris viverra veniam sit
-                    amet lacus cursus.
-                  </p>
-                  <ul class="job-highlights">
-                    <li>
-                      <i class="fa-solid fa-check"></i> Managed cross-functional
-                      teams of 15+ professionals
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-check"></i> Implemented agile
-                      methodologies resulting in 40% efficiency gain
-                    </li>
-                    <li>
-                      <i class="fa-solid fa-check"></i> Led digital
-                      transformation initiatives worth $2M+
-                    </li>
-                  </ul>
-                </div>
-
-                <div class="experience-card">
-                  <div class="card-header-flex">
-                    <h4>Senior Development Manager</h4>
-                    <span class="date-pill">2018 - 2022</span>
-                  </div>
-                  <p class="company-name">Consectetur Solutions Inc</p>
-                  <p class="job-desc">
-                    Donec quam felis ultricies nec pellentesque eu pretium quis
-                    sem nulla consequat massa quis enim donec pede justo
-                    fringilla vel.
-                  </p>
-                </div>
-
-                <div class="experience-card">
-                  <div class="card-header-flex">
-                    <h4>Product Development Specialist</h4>
-                    <span class="date-pill">2015 - 2018</span>
-                  </div>
-                  <p class="company-name">Adipiscing Technologies</p>
-                  <p class="job-desc">
-                    Nam quam nunc blandit vel luctus pulvinar hendrerit id lorem
-                    maecenas nec odio et ante tincidunt tempus donec vitae
-                    sapien ut.
+                  <p class="school-name">Tempus University</p>
+                  <p class="card-desc">
+                    Cum sociis natoque penatibus et magnis dis parturient montes
+                    nascetur ridiculus mus donec quam felis ultricies nec.
                   </p>
                 </div>
               </div>
-            </article>
 
-            <article class="resume-column">
-              <header class="column-header">
-                <i class="fa-solid fa-graduation-cap"></i>
-                <h3>Academic Excellence</h3>
-              </header>
-              <p class="column-description">
-                Lorem ipsum dolor sit amet consectetuer adipiscing elit aenean
-                commodo ligula eget dolor aenean massa.
-              </p>
-
-              <div class="education-timeline">
-                <div class="timeline-line"></div>
-
-                <div class="education-item">
-                  <div class="timeline-dot"></div>
-                  <div class="education-card">
-                    <div class="card-header-flex">
-                      <h4>Master of Computer Science</h4>
-                      <span class="date-pill solid">2015 - 2017</span>
-                    </div>
-                    <p class="school-name">Tempus University</p>
-                    <p class="edu-desc">
-                      Cum sociis natoque penatibus et magnis dis parturient
-                      montes nascetur ridiculus mus donec quam felis ultricies
-                      nec.
-                    </p>
+              
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="education-card">
+                  <div class="card-top">
+                    <h4>Bachelor of Information Technology</h4>
+                    <span class="date-pill solid">2011 - 2015</span>
                   </div>
-                </div>
-
-                <div class="education-item">
-                  <div class="timeline-dot"></div>
-                  <div class="education-card">
-                    <div class="card-header-flex">
-                      <h4>Bachelor of Information Technology</h4>
-                      <span class="date-pill solid">2011 - 2015</span>
-                    </div>
-                    <p class="school-name">Rhoncus Institute of Technology</p>
-                    <p class="edu-desc">
-                      Nullam dictum felis eu pede mollis pretium integer
-                      tincidunt cras dapibus vivamus elementum semper nisi
-                      aenean vulputate.
-                    </p>
-                  </div>
-                </div>
-
-                <div class="education-item">
-                  <div class="timeline-dot"></div>
-                  <div class="education-card">
-                    <div class="card-header-flex">
-                      <h4>Certificate in Digital Innovation</h4>
-                      <span class="date-pill solid">2020</span>
-                    </div>
-                    <p class="school-name">Ligula Academy</p>
-                    <p class="edu-desc">
-                      Etiam sit amet orci eget eros faucibus tincidunt duis leo
-                      sed fringilla mauris sit amet nibh donec sodales sagittis
-                      magna.
-                    </p>
-                  </div>
+                  <p class="school-name">Rhoncus Institute of Technology</p>
+                  <p class="card-desc">
+                    Nullam dictum felis eu pede mollis pretium integer tincidunt
+                    cras dapibus vivamus elementum semper nisi aenean vulputate.
+                  </p>
                 </div>
               </div>
-            </article>
+
+             
+              <div class="timeline-item">
+                <div class="timeline-dot"></div>
+                <div class="education-card">
+                  <div class="card-top">
+                    <h4>Certificate in Digital Innovation</h4>
+                    <span class="date-pill solid">2020</span>
+                  </div>
+                  <p class="school-name">Ligula Academy</p>
+                  <p class="card-desc">
+                    Etiam sit amet orci eget eros faucibus tincidunt duis leo
+                    sed fringilla mauris sit amet nibh donec sodales sagittis
+                    magna.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="services">
-        <div class="services-container">
-          <header class="section-header">
-            <div class="title-wrapper">
-              <h2>Services</h2>
-              <span class="title-line"></span>
+      
+      <section class="services" id="services">
+        
+        <div class="section-title-group">
+          <h2>Services</h2>
+          <span class="title-line"></span>
+        </div>
+        <p class="section-subtitle">
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+
+        
+        <div class="services-grid">
+          
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-layer-group"></i>
             </div>
-            <p class="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
+            <h3>Digital Solutions</h3>
+            <p>
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium doloremque laudantium totam rem aperiam eaque ipsa.
             </p>
-          </header>
-
-          <div class="services-grid">
-            <article class="service-item-card">
-              <div class="service-icon">
-                <i class="fa-solid fa-layer-group"></i>
-              </div>
-              <h3>Digital Solutions</h3>
-              <p>
-                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-                accusantium doloremque laudantium totam rem aperiam eaque ipsa.
-              </p>
-              <a href="#" class="service-link"
-                >Learn More <i class="fa-solid fa-arrow-right"></i
-              ></a>
-            </article>
-
-            <article class="service-item-card">
-              <div class="service-icon">
-                <i class="fa-solid fa-shield-halved"></i>
-              </div>
-              <h3>Secure Systems</h3>
-              <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
-                cupidatat.
-              </p>
-              <a href="#" class="service-link"
-                >Learn More <i class="fa-solid fa-arrow-right"></i
-              ></a>
-            </article>
-
-            <article class="service-item-card">
-              <div class="service-icon">
-                <i class="fa-solid fa-chart-line"></i>
-              </div>
-              <h3>Growth Strategy</h3>
-              <p>
-                Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-                esse quam nihil molestiae consequatur vel illum qui dolorem.
-              </p>
-              <a href="#" class="service-link"
-                >Learn More <i class="fa-solid fa-arrow-right"></i
-              ></a>
-            </article>
-
-            <article class="service-item-card">
-              <div class="service-icon">
-                <i class="fa-solid fa-microchip"></i>
-              </div>
-              <h3>AI Integration</h3>
-              <p>
-                Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
-                aut fugit, sed quia consequuntur magni dolores eos qui ratione.
-              </p>
-              <a href="#" class="service-link"
-                >Learn More <i class="fa-solid fa-arrow-right"></i
-              ></a>
-            </article>
-
-            <article class="service-item-card active">
-              <div class="service-icon">
-                <i class="fa-solid fa-cloud-arrow-up"></i>
-              </div>
-              <h3>Cloud Services</h3>
-              <p>
-                At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                blanditiis praesentium voluptatum deleniti atque corrupti quos.
-              </p>
-              <a href="#" class="service-link"
-                >Learn More <i class="fa-solid fa-arrow-right"></i
-              ></a>
-            </article>
-
-            <article class="service-item-card">
-              <div class="service-icon"><i class="fa-solid fa-gear"></i></div>
-              <h3>Process Automation</h3>
-              <p>
-                Nam libero tempore, cum soluta nobis est eligendi optio cumque
-                nihil impedit quo minus id quod maxime placeat facere possimus.
-              </p>
-              <a href="#" class="service-link"
-                >Learn More <i class="fa-solid fa-arrow-right"></i
-              ></a>
-            </article>
+            <a href="#" class="learn-more"
+              >Learn More <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
-        </div>
-      </section>
-      <section class="portfolio">
-        <div class="portfolio-container">
-          <header class="section-header">
-            <div class="title-wrapper">
-              <h2>Portfolio</h2>
-              <span class="title-line"></span>
+
+         
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-shield-halved"></i>
             </div>
-            <p class="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
+            <h3>Secure Systems</h3>
+            <p>
+              Duis aute irure dolor in reprehenderit in voluptate velit esse
+              cillum dolore eu fugiat nulla pariatur excepteur sint occaecat
+              cupidatat.
             </p>
-          </header>
-
-          <div class="portfolio-filters">
-            <button class="filter-btn active">
-              <i class="fas fa-table-cells"></i></i></i> All Projects
-            </button>
-            <button class="filter-btn">UI/UX</button>
-            <button class="filter-btn">Development</button>
-            <button class="filter-btn">Photography</button>
-            <button class="filter-btn">Marketing</button>
+            <a href="#" class="learn-more"
+              >Learn More <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
 
-          <div class="portfolio-grid">
-            <article class="portfolio-item">
-              <img src="./Asset/images/portfolio-1.webp" alt="Minimalist Product">
-              <div class="portfolio-overlay">
-                <div class="overlay-content">
-                  <p class="item-category">Product Design</p>
-                  <h3 class="item-title">Minimalist Bottle</h3>
-                  <div class="overlay-icons">
-                    <a href="#"><i class="fa-solid fa-plus"></i></a>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="portfolio-item">
-              <img src="./Asset/images/portfolio-10.webp" alt="Art Decoration">
-              <div class="portfolio-overlay">
-                <div class="overlay-content">
-                  <p class="item-category">UI/UX Design</p>
-                  <h3 class="item-title">E-Learning App</h3>
-                  <div class="overlay-icons">
-                    <a href="#"><i class="fa-solid fa-plus"></i></a>
-                    <a href="#"><i class="fa-solid fa-link"></i></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="portfolio-item">
-              <img src="./Asset/images/portfolio-11.webp" alt="Urban Architecture">
-              <div class="portfolio-overlay">
-                <div class="overlay-content">
-                  <p class="item-category">PHOTOGRAPHY</p>
-                  <h3 class="item-title">Urban Architecture</h3>
-                  <div class="overlay-icons">
-                   <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
-                   <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="portfolio-item">
-              <img src="./Asset/images/portfolio-2.webp" alt="Desk Identity">
-              <div class="portfolio-overlay">
-                <div class="overlay-content">
-                  <p class="item-category">Branding</p>
-                  <h3 class="item-title">Visual Workspace</h3>
-                  <div class="overlay-icons">
-                    <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="portfolio-item">
-              <img src="./Asset/images/portfolio-4.webp" alt="Succulent Plant">
-              <div class="portfolio-overlay">
-                <div class="overlay-content">
-                  <p class="item-category">Development</p>
-                  <h3 class="item-title">Web Component</h3>
-                  <div class="overlay-icons">
-                    <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="portfolio-item">
-              <img src="./Asset/images/portfolio-5.webp" alt="Modern Bathroom">
-              <div class="portfolio-overlay">
-                <div class="overlay-content">
-                  <p class="item-category">UI/UX Design</p>
-                  <h3 class="item-title">Smart Home Interior</h3>
-                  <div class="overlay-icons">
-                   <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
-                   <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="portfolio-item">
-              <img src="./Asset/images/portfolio-7.webp" alt="Colored Pencils">
-              <div class="portfolio-overlay">
-                <div class="overlay-content">
-                  <p class="item-category">Marketing</p>
-                  <h3 class="item-title">Creative Campaign</h3>
-                  <div class="overlay-icons">
-                    <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-
-            <article class="portfolio-item">
-              <img src="./Asset/images/portfolio-8.webp" alt="Yellow Mug">
-              <div class="portfolio-overlay">
-                <div class="overlay-content">
-                  <p class="item-category">Photography</p>
-                  <h3 class="item-title">Coffee Morning</h3>
-                  <div class="overlay-icons">
-                    <a href="#"><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a>
-                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
-                  </div>
-                </div>
-              </div>
-            </article>
-          </div>
-        </div>
-      </section>
-      <section class="testimonials">
-        <div class="testimonials-container">
-          <header class="section-header">
-            <div class="title-wrapper">
-              <h2>Testimonials</h2>
-              <span class="title-line"></span>
+         
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-chart-line"></i>
             </div>
-            <p class="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
+            <h3>Growth Strategy</h3>
+            <p>
+              Quis autem vel eum iure reprehenderit qui in ea voluptate velit
+              esse quam nihil molestiae consequatur vel illum qui dolorem.
             </p>
-          </header>
-
-          <div class="testimonials-grid">
-            <article class="testimonial-card">
-              <i class="fa-solid fa-quote-left quote-icon"></i>
-              <div class="testimonial-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testimonial-text">
-                Pellentesque in ipsum id orci porta dapibus. Vivamus magna
-                justo, lacinia eget consectetur sed, convallis at tellus.
-              </p>
-              <h4 class="testimonial-source">The New York Times</h4>
-            </article>
-
-            <article class="testimonial-card">
-              <i class="fa-solid fa-quote-left quote-icon"></i>
-              <div class="testimonial-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-              </div>
-              <p class="testimonial-text">
-                Curabitur non nulla sit amet nisl tempus convallis quis ac
-                lectus. Nulla quis lorem ut libero malesuada feugiat.
-              </p>
-              <h4 class="testimonial-source">Washington Post</h4>
-            </article>
-
-            <article class="testimonial-card">
-              <i class="fa-solid fa-quote-left quote-icon"></i>
-              <div class="testimonial-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testimonial-text">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Vivamus suscipit tortor eget felis porttitor volutpat.
-              </p>
-              <h4 class="testimonial-source">The Guardian</h4>
-            </article>
-
-            <article class="testimonial-card accent">
-              <div class="testimonial-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testimonial-text">
-                Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-                Cras ultricies ligula sed magna dictum porta. Vestibulum ante
-                ipsum primis in faucibus orci luctus.
-              </p>
-              <div class="testimonial-author">
-                <img src="./Asset/images/person-m-2.webp" alt="Michael Johnson" />
-                <div class="author-meta">
-                  <h5>Michael Johnson</h5>
-                  <span>Sci-Fi Blogger</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="testimonial-card accent">
-              <div class="testimonial-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-              </div>
-              <p class="testimonial-text">
-                Quisque velit nisi, pretium ut lacinia in, elementum id enim.
-                Cras ultricies ligula sed magna dictum porta. Donec sollicitudin
-                molestie malesuada.
-              </p>
-              <div class="testimonial-author">
-                <img src="./Asset/images/person-f-3.webp" alt="Emily Davis" />
-                <div class="author-meta">
-                  <h5>Emily Davis</h5>
-                  <span>Book Club President</span>
-                </div>
-              </div>
-            </article>
-
-            <article class="testimonial-card accent">
-              <div class="testimonial-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-              </div>
-              <p class="testimonial-text">
-                Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
-                Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor
-                sit amet, consectetur.
-              </p>
-              <div class="testimonial-author">
-                <img src="./Asset/images/person-m-4.webp" alt="Robert Wilson" />
-                <div class="author-meta">
-                  <h5>Robert Wilson</h5>
-                  <span>Literary Reviewer</span>
-                </div>
-              </div>
-            </article>
+            <a href="#" class="learn-more"
+              >Learn More <i class="fa-solid fa-arrow-right"></i
+            ></a>
           </div>
 
-          <div class="slider-pagination">
-            <span class="dot"></span>
-            <span class="dot active"></span>
-            <span class="dot"></span>
-            <span class="dot"></span>
-          </div>
-
-          <footer class="rating-footer">
-            <div class="rating-box">
-              <h2 class="rating-score">4.8</h2>
-              <div class="rating-stars">
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-              </div>
-              <p class="rating-count">Based on 230+ reviews</p>
-              <div class="rating-platforms">
-                <span class="platform-pill">Goodreads</span>
-                <span class="platform-pill">Amazon</span>
-                <span class="platform-pill">Barnes & Noble</span>
-              </div>
+         
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-microchip"></i>
             </div>
-          </footer>
+            <h3>AI Integration</h3>
+            <p>
+              Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit
+              aut fugit, sed quia consequuntur magni dolores eos qui ratione.
+            </p>
+            <a href="#" class="learn-more"
+              >Learn More <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+          
+          <div class="service-card">
+            <div class="service-icon">
+              <i class="fa-solid fa-cloud-arrow-up"></i>
+            </div>
+            <h3>Cloud Services</h3>
+            <p>
+              At vero eos et accusamus et iusto odio dignissimos ducimus qui
+              blanditiis praesentium voluptatum deleniti atque corrupti quos.
+            </p>
+            <a href="#" class="learn-more"
+              >Learn More <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
+
+         
+          <div class="service-card">
+            <div class="service-icon"><i class="fa-solid fa-gear"></i></div>
+            <h3>Process Automation</h3>
+            <p>
+              Nam libero tempore, cum soluta nobis est eligendi optio cumque
+              nihil impedit quo minus id quod maxime placeat facere possimus.
+            </p>
+            <a href="#" class="learn-more"
+              >Learn More <i class="fa-solid fa-arrow-right"></i
+            ></a>
+          </div>
         </div>
       </section>
-      <section class="faq">
+    
+      <section class="portfolio" id="portfolio">
+        
+        <div class="section-title-group">
+          <h2>Portfolio</h2>
+          <span class="title-line"></span>
+        </div>
+        <p class="section-subtitle">
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+
+       
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">
+            All Projects
+          </button>
+          <button class="filter-btn" data-filter="ui">UI/UX</button>
+          <button class="filter-btn" data-filter="dev">Development</button>
+          <button class="filter-btn" data-filter="photo">Photography</button>
+          <button class="filter-btn" data-filter="marketing">Marketing</button>
+        </div>
+
+        
+        <div class="portfolio-grid">
+         
+          <div class="portfolio-item">
+            <img src="./Asset/images/portfolio-1.webp" alt="Project 1" />
+            <div class="portfolio-overlay">
+              <div class="overlay-content">
+                <span class="category">BRANDING</span>
+                <h4>Product Design</h4>
+                <div class="overlay-links">
+                  <a href="#"><i class="fa-solid fa-maximize"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="portfolio-item">
+            <img src="./Asset/images/portfolio-10.webp" alt="Project 2" />
+            <div class="portfolio-overlay">
+             
+              <div class="overlay-content">
+                <span class="category">DEVELOPMENT</span>
+                <h4>E-Learning Platform</h4>
+                <div class="overlay-links">
+                  <a href="#"><i class="fa-solid fa-maximize"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="portfolio-item">
+            <img src="./Asset/images/portfolio-11.webp" alt="Project 3" />
+            <div class="portfolio-overlay">
+              <div class="overlay-content">
+                <span class="category">PHOTOGRAPHY</span>
+                <h4>Creative Concept</h4>
+                <div class="overlay-links">
+                  <a href="#"><i class="fa-solid fa-maximize"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="portfolio-item">
+            <img src="./Asset/images/portfolio-2.webp" alt="Project 4" />
+            <div class="portfolio-overlay">
+              <div class="overlay-content">
+                <span class="category">UI/UX</span>
+                <h4>App Interface</h4>
+                <div class="overlay-links">
+                  <a href="#"><i class="fa-solid fa-maximize"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="portfolio-item">
+            <img src="./Asset/images/portfolio-4.webp" alt="Project 5" />
+            <div class="portfolio-overlay">
+              <div class="overlay-content">
+                <span class="category">MARKETING</span>
+                <h4>Social Media</h4>
+                <div class="overlay-links">
+                  <a href="#"><i class="fa-solid fa-maximize"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        
+          <div class="portfolio-item">
+            <img src="./Asset/images/portfolio-5.webp" alt="Project 6" />
+            <div class="portfolio-overlay">
+              <div class="overlay-content">
+                <span class="category">DEVELOPMENT</span>
+                <h4>Dashboard Web</h4>
+                <div class="overlay-links">
+                  <a href="#"><i class="fa-solid fa-maximize"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="portfolio-item">
+            <img src="./Asset/images/portfolio-7.webp" alt="Project 7" />
+            <div class="portfolio-overlay">
+              <div class="overlay-content">
+                <span class="category">ART</span>
+                <h4>Digital Artwork</h4>
+                <div class="overlay-links">
+                  <a href="#"><i class="fa-solid fa-maximize"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="portfolio-item">
+            <img src="./Asset/images/portfolio-8.webp" alt="Project 8" />
+            <div class="portfolio-overlay">
+              <div class="overlay-content">
+                <span class="category">DESIGN</span>
+                <h4>Minimalist Cup</h4>
+                <div class="overlay-links">
+                  <a href="#"><i class="fa-solid fa-maximize"></i></a>
+                  <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <section class="testimonials" id="testimonials">
+        
+        <div class="section-title-group">
+          <h2>Testimonials</h2>
+          <span class="title-line"></span>
+        </div>
+        <p class="section-subtitle">
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+
+        
+        <div class="testimonials-grid">
+         
+          <div class="testimonial-card">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo,
+              lacinia eget consectetur sed, convallis at tellus.
+            </p>
+            <h4 class="testimonial-source">The New York Times</h4>
+          </div>
+
+          <div class="testimonial-card">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="testimonial-text">
+              Curabitur non nulla sit amet nisl tempus convallis quis ac lectus.
+              Nulla quis lorem ut libero malesuada feugiat.
+            </p>
+            <h4 class="testimonial-source">Washington Post</h4>
+          </div>
+
+          <div class="testimonial-card">
+            <i class="fa-solid fa-quote-left quote-icon"></i>
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Vivamus suscipit tortor eget felis porttitor volutpat.
+            </p>
+            <h4 class="testimonial-source">The Guardian</h4>
+          </div>
+
+          
+          <div class="testimonial-card accent">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+              Cras ultricies ligula sed magna dictum porta. Vestibulum ante
+              ipsum primis.
+            </p>
+            <div class="testimonial-author">
+              <img src="./Asset/images/person-m-2.webp" alt="Michael Johnson" />
+              <div class="author-info">
+                <h5>Michael Johnson</h5>
+                <span>Sci-Fi Blogger</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card accent">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i>
+            </div>
+            <p class="testimonial-text">
+              Quisque velit nisi, pretium ut lacinia in, elementum id enim. Cras
+              ultricies ligula sed magna dictum porta. Donec sollicitudin
+              molestie.
+            </p>
+            <div class="testimonial-author">
+              <img src="./Asset/images/person-f-3.webp" alt="Emily Davis" />
+              <div class="author-info">
+                <h5>Emily Davis</h5>
+                <span>Book Club President</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card accent">
+            <div class="testimonial-stars">
+              <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+              ><i class="fa-solid fa-star-half-stroke"></i>
+            </div>
+            <p class="testimonial-text">
+              Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a.
+              Curabitur aliquet quam id dui posuere blandit. Lorem ipsum dolor
+              sit amet.
+            </p>
+            <div class="testimonial-author">
+              <img src="./Asset/images/person-m-4.webp" alt="Robert Wilson" />
+              <div class="author-info">
+                <h5>Robert Wilson</h5>
+                <span>Literary Reviewer</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="slider-pagination">
+          <span class="dot"></span>
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+
+       
+        <div class="rating-box">
+          <h2 class="rating-score">4.8</h2>
+          <div class="rating-stars">
+            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i
+            ><i class="fa-solid fa-star-half-stroke"></i>
+          </div>
+          <p class="rating-count">Based on 230+ reviews</p>
+          <div class="rating-platforms">
+            <span class="platform-pill">Goodreads</span>
+            <span class="platform-pill">Amazon</span>
+            <span class="platform-pill">Barnes & Noble</span>
+          </div>
+        </div>
+      </section>
+     
+      <section class="faq" id="faq">
+      
+        <div class="section-title-group">
+          <h2>Frequently Asked Questions</h2>
+          <span class="title-line"></span>
+        </div>
+        <p class="section-subtitle">
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+
         <div class="faq-container">
-          <header class="section-header">
-            <div class="title-wrapper">
-              <h2>Frequently Asked Questions</h2>
-              <span class="title-line"></span>
+          <!-- Item 1 -->
+          <div class="faq-item">
+            <input type="checkbox" id="faq-1" class="faq-toggle" />
+            <label for="faq-1" class="faq-question">
+              <h3>Non consectetur a erat nam at lectus urna duis?</h3>
+              <i class="fa-solid fa-chevron-right"></i>
+            </label>
+            <div class="faq-answer">
+              <p>
+                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
+                volutpat lacus laoreet non curabitur gravida. Venenatis lectus
+                magna fringilla urna porttitor rhoncus dolor purus non.
+              </p>
             </div>
-            <p class="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
-            </p>
-          </header>
+          </div>
 
-          <div class="faq-list">
-            <article class="faq-item">
-              <input type="checkbox" id="faq-1" class="faq-toggle" />
-              <label for="faq-1" class="faq-question">
-                <h3>Non consectetur a erat nam at lectus urna duis?</h3>
-                <i class="fa-solid fa-chevron-right"></i>
-              </label>
-              <div class="faq-answer">
-                <div class="answer-content">
-                  <p>
-                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
-                    volutpat lacus laoreet non curabitur gravida. Venenatis
-                    lectus magna fringilla urna porttitor rhoncus dolor purus
-                    non.
-                  </p>
-                </div>
-              </div>
-            </article>
+          
+          <div class="faq-item">
+            <input type="checkbox" id="faq-2" class="faq-toggle" />
+            <label for="faq-2" class="faq-question">
+              <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
+              <i class="fa-solid fa-chevron-right"></i>
+            </label>
+            <div class="faq-answer">
+              <p>
+                Dolor sit amet consectetur adipiscing elit pellentesque habitant
+                morbi. Id interdum velit laoreet id donec ultrices. Fringilla
+                phasellus faucibus scelerisque eleifend donec pretium.
+              </p>
+            </div>
+          </div>
 
-            <article class="faq-item">
-              <input type="checkbox" id="faq-2" class="faq-toggle" />
-              <label for="faq-2" class="faq-question">
-                <h3>Feugiat scelerisque varius morbi enim nunc faucibus?</h3>
-                <i class="fa-solid fa-chevron-right"></i>
-              </label>
-              <div class="faq-answer">
-                <div class="answer-content">
-                  <p>
-                    Dolor sit amet consectetur adipiscing elit pellentesque
-                    habitant morbi. Id interdum velit laoreet id donec ultrices.
-                    Fringilla phasellus faucibus scelerisque eleifend donec
-                    pretium.
-                  </p>
-                </div>
-              </div>
-            </article>
+         
+          <div class="faq-item">
+            <input type="checkbox" id="faq-3" class="faq-toggle" />
+            <label for="faq-3" class="faq-question">
+              <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
+              <i class="fa-solid fa-chevron-right"></i>
+            </label>
+            <div class="faq-answer">
+              <p>
+                Eleifend mi in nulla posuere sollicitudin aliquam ultrices
+                sagittis orci. Faucibus pulvinar elementum integer enim. Sem
+                nulla pharetra diam sit amet nisl suscipit.
+              </p>
+            </div>
+          </div>
 
-            <article class="faq-item">
-              <input type="checkbox" id="faq-3" class="faq-toggle" />
-              <label for="faq-3" class="faq-question">
-                <h3>Dolor sit amet consectetur adipiscing elit pellentesque?</h3>
-                <i class="fa-solid fa-chevron-right"></i>
-              </label>
-              <div class="faq-answer">
-                <div class="answer-content">
-                  <p>
-                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                    sagittis orci. Faucibus pulvinar elementum integer enim. Sem
-                    nulla pharetra diam sit amet nisl suscipit.
-                  </p>
-                </div>
-              </div>
-            </article>
+         
+          <div class="faq-item">
+            <input type="checkbox" id="faq-4" class="faq-toggle" />
+            <label for="faq-4" class="faq-question">
+              <h3>
+                Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?
+              </h3>
+              <i class="fa-solid fa-chevron-right"></i>
+            </label>
+            <div class="faq-answer">
+              <p>
+                Amet mattis vulputate enim nulla aliquet porttitor lacus luctus.
+                Accumsan tortor posuere ac ut consequat semper viverra nam
+                libero.
+              </p>
+            </div>
+          </div>
 
-            <article class="faq-item">
-              <input type="checkbox" id="faq-4" class="faq-toggle" />
-              <label for="faq-4" class="faq-question">
-                <h3>Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla?</h3>
-                <i class="fa-solid fa-chevron-right"></i>
-              </label>
-              <div class="faq-answer">
-                <div class="answer-content">
-                  <p>
-                    Amet mattis vulputate enim nulla aliquet porttitor lacus
-                    luctus. Accumsan tortor posuere ac ut consequat semper
-                    viverra nam libero.
-                  </p>
-                </div>
-              </div>
-            </article>
+         
+          <div class="faq-item">
+            <input type="checkbox" id="faq-5" class="faq-toggle" />
+            <label for="faq-5" class="faq-question">
+              <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
+              <i class="fa-solid fa-chevron-right"></i>
+            </label>
+            <div class="faq-answer">
+              <p>
+                Molestie a iaculis at erat pellentesque adipiscing commodo.
+                Dignissim suspendisse in est ante in. Nunc vel risus commodo
+                viverra maecenas accumsan.
+              </p>
+            </div>
+          </div>
 
-            <article class="faq-item">
-              <input type="checkbox" id="faq-5" class="faq-toggle" />
-              <label for="faq-5" class="faq-question">
-                <h3>Tempus quam pellentesque nec nam aliquam sem et tortor?</h3>
-                <i class="fa-solid fa-chevron-right"></i>
-              </label>
-              <div class="faq-answer">
-                <div class="answer-content">
-                  <p>
-                    Molestie a iaculis at erat pellentesque adipiscing commodo.
-                    Dignissim suspendisse in est ante in. Nunc vel risus commodo
-                    viverra maecenas accumsan.
-                  </p>
-                </div>
-              </div>
-            </article>
-
-            <article class="faq-item">
-              <input type="checkbox" id="faq-6" class="faq-toggle" />
-              <label for="faq-6" class="faq-question">
-                <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
-                <i class="fa-solid fa-chevron-right"></i>
-              </label>
-              <div class="faq-answer">
-                <div class="answer-content">
-                  <p>
-                    Enim nec dui nunc mattis enim ut tellus elementum sagittis.
-                    Facilisis sed odio morbi quis commodo odio aenean sed.
-                    Adipiscing diam donec adipiscing tristique risus.
-                  </p>
-                </div>
-              </div>
-            </article>
+          
+          <div class="faq-item">
+            <input type="checkbox" id="faq-6" class="faq-toggle" />
+            <label for="faq-6" class="faq-question">
+              <h3>Perspiciatis quod quo quos nulla quo illum ullam?</h3>
+              <i class="fa-solid fa-chevron-right"></i>
+            </label>
+            <div class="faq-answer">
+              <p>
+                Enim nec dui nunc mattis enim ut tellus elementum sagittis.
+                Facilisis sed odio morbi quis commodo odio aenean sed.
+                Adipiscing diam donec adipiscing tristique risus.
+              </p>
+            </div>
           </div>
         </div>
       </section>
-      <section class="contact">
-        <div class="contact-container">
-          <header class="section-header">
-            <div class="title-wrapper">
-              <h2>Contact</h2>
-              <span class="title-line"></span>
-            </div>
-            <p class="section-subtitle">
-              Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
-              consectetur velit
+     
+      <section class="contact" id="contact">
+       
+        <div class="section-title-group">
+          <h2>Contact</h2>
+          <span class="title-line"></span>
+        </div>
+        <p class="section-subtitle">
+          Necessitatibus eius consequatur ex aliquid fuga eum quidem sint
+          consectetur velit
+        </p>
+
+        <div class="contact-layout">
+          
+          <div class="contact-info-card">
+            <h3>Contact Info</h3>
+            <p class="info-intro">
+              Praesent sapien massa, convallis a pellentesque nec, egestas non
+              nisi. Vestibulum ante ipsum primis.
             </p>
-          </header>
 
-          <div class="contact-layout">
-            <article class="contact-info-card">
-              <h3>Contact Info</h3>
-              <p class="info-intro">
-                Praesent sapien massa, convallis a pellentesque nec, egestas non
-                nisi. Vestibulum ante ipsum primis.
-              </p>
-
-              <div class="info-details">
-                <div class="info-detail-item">
-                  <div class="info-icon-box">
-                    <i class="fa-solid fa-location-dot"></i>
-                  </div>
-                  <div class="info-content">
-                    <h4>Our Location</h4>
-                    <p>A108 Adam Street<br />New York, NY 535022</p>
-                  </div>
+            <div class="info-list">
+             
+              <div class="info-item">
+                <div class="info-icon-circle">
+                  <i class="fa-solid fa-location-dot"></i>
                 </div>
-
-                <div class="info-detail-item">
-                  <div class="info-icon-box">
-                    <i class="fa-solid fa-phone"></i>
-                  </div>
-                  <div class="info-content">
-                    <h4>Phone Number</h4>
-                    <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
-                  </div>
-                </div>
-
-                <div class="info-detail-item">
-                  <div class="info-icon-box">
-                    <i class="fa-solid fa-envelope"></i>
-                  </div>
-                  <div class="info-content">
-                    <h4>Email Address</h4>
-                    <p>info@example.com<br />contact@example.com</p>
-                  </div>
+                <div class="info-text">
+                  <h4>Our Location</h4>
+                  <p>A108 Adam Street<br />New York, NY 535022</p>
                 </div>
               </div>
-            </article>
 
-            <article class="contact-form-card">
-              <h3>Get In Touch</h3>
-              <p class="form-intro">
-                Praesent sapien massa, convallis a pellentesque nec, egestas non
-                nisi. Vestibulum ante ipsum primis.
-              </p>
+             
+              <div class="info-item">
+                <div class="info-icon-circle">
+                  <i class="fa-solid fa-phone"></i>
+                </div>
+                <div class="info-text">
+                  <h4>Phone Number</h4>
+                  <p>+1 5589 55488 55<br />+1 6678 254445 41</p>
+                </div>
+              </div>
 
-              <form class="contact-form">
-                <div class="form-row">
-                  <div class="form-group">
-                    <input type="text" placeholder="Your Name" required />
-                  </div>
-                  <div class="form-group">
-                    <input type="email" placeholder="Your Email" required />
-                  </div>
+              
+              <div class="info-item">
+                <div class="info-icon-circle">
+                  <i class="fa-solid fa-envelope"></i>
                 </div>
-                <div class="form-group">
-                  <input type="text" placeholder="Subject" required />
+                <div class="info-text">
+                  <h4>Email Address</h4>
+                  <p>info@example.com<br />contact@example.com</p>
                 </div>
-                <div class="form-group">
-                  <textarea placeholder="Message" rows="5" required></textarea>
-                </div>
-                <div class="form-actions">
-                  <button type="submit" class="btn primary1">
-                    Send Message
-                  </button>
-                </div>
-              </form>
-            </article>
+              </div>
+            </div>
+          </div>
+
+          
+          <div class="contact-form-card">
+            <h3>Get In Touch</h3>
+            <p class="form-intro">
+              Praesent sapien massa, convallis a pellentesque nec, egestas non
+              nisi. Vestibulum ante ipsum primis.
+            </p>
+
+            <form class="contact-form">
+              <div class="form-row">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+              </div>
+              <input type="text" placeholder="Subject" required />
+              <textarea placeholder="Message" rows="6" required></textarea>
+
+              <div class="form-submit">
+                <button type="submit" class="btn-send">Send Message</button>
+              </div>
+            </form>
           </div>
         </div>
       </section>
-      <footer class="footer">
-  <div class="footer-container">
-    <div class="footer-copyright">
-      &copy; Copyright <strong>Style</strong> All Rights Reserved
-    </div>
-    <div class="footer-social-links">
-      <a href="#" class="social-link"><i class="fa-brands fa-x-twitter"></i></a>
-      <a href="#" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
-      <a href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a>
-      <a href="#" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
-    </div>
-    <div class="footer-credits">
-      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-    </div>
-  </div>
-</footer>
     </main>
+   
+    <footer class="footer-section">
+      <div class="footer-container">
+       
+        <div class="footer-copyright">
+          &copy; Copyright <strong>Style</strong> All Rights Reserved
+        </div>
+
+       
+        <div class="footer-socials">
+          <a href="#" aria-label="X (Twitter)"
+            ><i class="fa-brands fa-x-twitter"></i
+          ></a>
+          <a href="#" aria-label="Facebook"
+            ><i class="fa-brands fa-facebook-f"></i
+          ></a>
+          <a href="#" aria-label="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a href="#" aria-label="LinkedIn"
+            ><i class="fa-brands fa-linkedin-in"></i
+          ></a>
+        </div>
+
+       
+        <div class="footer-credits">
+          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
